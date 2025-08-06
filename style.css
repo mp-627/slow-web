@@ -72,3 +72,10 @@ a {
 .poem-post .poem-title {
   display: none;
 }
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
