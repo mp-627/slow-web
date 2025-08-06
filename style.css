@@ -2,9 +2,73 @@ body {
   font-family: sans-serif;
   background: #f8f8f8;
   color: #333;
-  padding: 2rem;
+  padding: 2.5rem;
   line-height: 1.6;
 }
+
 a {
   color: #0066cc;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.post-preview h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.post-preview p {
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0;
+}
+
+.post-title {
+  font-size: 1.8rem;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.link a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+/* 詩のタイトルリンク（控えめな主張） */
+.post-title a {
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+  color: #606060;
+}
+
+.poem-post .poem-title {
+  display: none;
 }
