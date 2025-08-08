@@ -145,16 +145,16 @@ a:hover {
   }
 
   body.home h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   body.home .intro {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1.6rem;
   }
 
   body.home .link a {
-    font-size: 1.8rem;
-    padding: 0.8rem 0;
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
   }
 }
