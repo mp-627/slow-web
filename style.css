@@ -157,7 +157,6 @@ a:hover {
     font-size: 1.6rem;
     padding: 0.2rem 0;
   }
-}
 
   /* blog-list & poem-list のスマホ向け調整 */
   body.blog-list,
@@ -193,3 +192,5 @@ a:hover {
     font-size: 1.6rem;
     padding: 0.5rem 0;
   }
+  
+}
