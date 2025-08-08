@@ -141,7 +141,7 @@ a:hover {
   /* ★ トップページ（body.home）のみフォントをさらに大きくする */
   body.home {
     font-size: 1.5rem;
-    padding: 2.5rem;
+    padding: 2rem;
   }
 
   body.home h1 {
