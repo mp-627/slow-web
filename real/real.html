@@ -8,14 +8,10 @@
       background: #ffffff;
       font-family: "MS Pゴシック";
       color: #000000;
-a {
-  color: #00ccff;
-};
       padding: 2rem;
       max-width: 600px;
       margin: auto;
       text-align: center;
-      
     }
 
     h1 {
@@ -23,6 +19,11 @@ a {
       margin-bottom: 1.5rem;
       border-bottom: 2px solid #ccc;
       padding-bottom: 0.5rem;
+    }
+
+    img {
+      width: 200px;
+      margin: 1rem 0;
     }
 
     ul.real-feed {
@@ -58,13 +59,44 @@ a {
     a:hover {
       text-decoration: underline;
     }
+
+    /* === スマホ対応 === */
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 1.1rem;
+        padding: 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+      }
+
+      .real-text {
+        font-size: 1.2rem;
+      }
+
+      .timestamp {
+        font-size: 0.85rem;
+      }
+
+      a {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+      }
+    }
   </style>
 </head>
-<body>
+<body class="real">
 
   <h1>り あ る ✰＝</h1>
 
-  <img src="../images/tamagotchi.jpeg" alt="たまごっち" width="200">
+  <img src="../images/tamagotchi.jpeg" alt="たまごっち">
 
   <ul class="real-feed">
     <li>
