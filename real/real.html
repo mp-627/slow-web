@@ -11,6 +11,7 @@
       padding: 2rem;
       max-width: 600px;
       margin: auto;
+      text-align: center;
     }
 
     h1 {
@@ -27,29 +28,54 @@
     }
 
     ul.real-feed li {
-      padding: 0.8rem 0;
       border-bottom: 1px dashed #ccc;
+      padding: 1rem 0;
       font-size: 1rem;
     }
 
     .timestamp {
+      display: block;
       color: #888;
       font-size: 0.9rem;
-      margin-right: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .real-text {
+      font-size: 1.1rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h1>リアル</h1>
+  <h1>りある</h1>
 
   <ul class="real-feed">
-    <li><span class="timestamp">2025/08/08 22:05</span>ねむい</li>
-    <li><span class="timestamp">2025/08/08 21:40</span>たこ焼き食べたい</li>
-    <li><span class="timestamp">2025/08/08 20:10</span>あつい。外出たくない</li>
+    <li>
+      <span class="timestamp">2025/08/08 22:05</span>
+      <div class="real-text">ねむい</div>
+    </li>
+    <li>
+      <span class="timestamp">2025/08/08 21:40</span>
+      <div class="real-text">たこ焼き食べたい</div>
+    </li>
+    <li>
+      <span class="timestamp">2025/08/08 20:10</span>
+      <div class="real-text">あつい。外出たくない</div>
+    </li>
   </ul>
 
-  <p><a href="index.html">◀ ホームに戻る</a></p>
+  <p><a href="../index.html">◀ ホームに戻る</a></p>
 
 </body>
 </html>
