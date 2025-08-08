@@ -92,7 +92,7 @@ a:hover {
 /* ===== モバイル対応（スマホ画面） ===== */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 2rem;
   }
 
