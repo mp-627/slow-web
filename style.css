@@ -161,36 +161,36 @@ a:hover {
   /* blog-list & poem-list のスマホ向け調整 */
   body.blog-list,
   body.poem-list {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 2.5rem;
   }
 
   body.blog-list h1,
   body.poem-list h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin-bottom: 1.5rem;
   }
 
   body.blog-list .post-title a,
   body.poem-list .post-title a {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   body.blog-list .post-excerpt,
   body.poem-list .post-excerpt {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.8;
   }
 
   body.blog-list .post-date,
   body.poem-list .post-date {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   body.blog-list .link a,
   body.poem-list .link a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 0.5rem 0;
   }
-  
+
 }
