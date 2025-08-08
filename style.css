@@ -173,20 +173,20 @@ a:hover {
   }
 
   body.poem-list .post-title a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   body.poem-list .post-excerpt {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.8;
   }
 
   body.poem-list .post-date {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
   }
 
   body.poem-list .link a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0.5rem 0;
   }
 }
