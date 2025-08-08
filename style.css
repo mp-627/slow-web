@@ -158,3 +158,38 @@ a:hover {
     padding: 0.2rem 0;
   }
 }
+
+  /* blog-list & poem-list のスマホ向け調整 */
+  body.blog-list,
+  body.poem-list {
+    font-size: 1.4rem;
+    padding: 2.5rem;
+  }
+
+  body.blog-list h1,
+  body.poem-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  body.blog-list .post-title a,
+  body.poem-list .post-title a {
+    font-size: 1.5rem;
+  }
+
+  body.blog-list .post-excerpt,
+  body.poem-list .post-excerpt {
+    font-size: 1.3rem;
+    line-height: 1.8;
+  }
+
+  body.blog-list .post-date,
+  body.poem-list .post-date {
+    font-size: 1.1rem;
+  }
+
+  body.blog-list .link a,
+  body.poem-list .link a {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+  }
