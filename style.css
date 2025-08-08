@@ -160,7 +160,7 @@ a:hover {
 
 }
 
-　/* blog-list 用スマホスタイル */
+/* blog-list 用スマホスタイル */
 @media screen and (max-width: 600px) {
   body.blog-list {
     font-size: 1.8rem;
