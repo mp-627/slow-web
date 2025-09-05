@@ -78,10 +78,6 @@ a:hover {
   color: #606060;
 }
 
-.poem-post .poem-title {
-  display: none;
-}
-
 .blog-post p,
 .poem-post p {
   font-size: 1.1rem;
@@ -249,4 +245,27 @@ body.poem-post p {
   margin-top: -1.5rem; /* タイトルとの間を少し詰める（調整可） */
   margin-bottom: 3rem; /* 下に余白 */
   text-align: left;  /* タイトルと揃えて左寄せ */
+}
+
+/* 英字はクラシック、日本語はゴシック fallback */
+body.poem-post .poem-title {
+  font-family: Georgia, "Yu Gothic", serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+/* poem-list の詩タイトルリンクにも同じフォントを適用 */
+body.poem-list .post-title a {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 1.6rem;   /* 少し小さめに調整（h2なので） */
+  font-weight: normal;
+  color: #333;
+  text-decoration: none; /* 下線を消す */
+}
+
+body.poem-list .post-title a:hover {
+  text-decoration: underline; /* hover 時にだけ下線 */
+  color: #555;
 }
