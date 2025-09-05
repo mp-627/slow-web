@@ -191,3 +191,18 @@ a:hover {
     padding: 0.5rem 0;
   }
 }
+
+/* トップページの中央揃え */
+body.home {
+  text-align: center;
+}
+
+/* トップページ画像 */
+body.home .homepic {
+  display: block;
+  margin: 1.5rem auto; /* 上下に余白を入れて中央寄せ */
+  max-width: 500px;    /* 最大幅を500pxに制限 */
+  width: 100%;         /* スマホなど狭い画面では自動調整 */
+  height: auto;        /* 縦横比を維持 */
+  border-radius: 8px;  /* 角を丸める（任意） */
+}
