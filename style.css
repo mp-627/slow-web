@@ -233,3 +233,11 @@ body.poem-post p {
   line-height: 1.8;   /* 行間も少し詰めるなら調整 */
 }
 
+/* poetry タイトルの下のサブタイトル */
+.poem-subtitle {
+  font-size: 0.9rem;   /* 小さめ文字 */
+  color: #999;         /* グレー */
+  margin-top: -1.5rem; /* タイトルとの間を少し詰める（調整可） */
+  margin-bottom: 3rem; /* 下に余白 */
+  text-align: left;  /* タイトルと揃えて左寄せ */
+}
