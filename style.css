@@ -151,7 +151,7 @@ a:hover {
 
   body.home .intro {
     font-size: 1.2rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 2rem;
   }
 
   body.home .link a {
@@ -205,4 +205,17 @@ body.home .homepic {
   width: 100%;         /* スマホなど狭い画面では自動調整 */
   height: auto;        /* 縦横比を維持 */
   border-radius: 8px;  /* 角を丸める（任意） */
+}
+
+/* トップページのタイトルだけ別フォントにする：Snell Roundhand（Mac系、上品でクラシカル） */
+body.home h1 {
+  font-family: "Snell Roundhand", cursive;
+  font-weight: normal;
+}
+
+/* トップページ intro の調整 */
+body.home .intro {
+  font-size: 1rem;  /* 文字を少し小さめに */
+  color: #777;        /* グレー系の色に */
+  margin-bottom: 3rem;
 }
