@@ -256,16 +256,3 @@ body.poem-post .poem-title {
   margin-bottom: 1.5rem;
 }
 
-/* poem-list の詩タイトルリンクにも同じフォントを適用 */
-body.poem-list .post-title a {
-  font-family: "Hiragino Maru Gothic ProN", sans-serif;
-  font-size: 1.6rem;   /* 少し小さめに調整（h2なので） */
-  font-weight: normal;
-  color: #333;
-  text-decoration: none; /* 下線を消す */
-}
-
-body.poem-list .post-title a:hover {
-  text-decoration: underline; /* hover 時にだけ下線 */
-  color: #555;
-}
