@@ -192,6 +192,13 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  body.poem-post p {
+    font-size: 1.1rem;  /* 他より少し小さめに */
+    line-height: 1.8;
+  }
+}
+
 /* トップページの中央揃え */
 body.home {
   text-align: center;
@@ -201,7 +208,7 @@ body.home {
 body.home .homepic {
   display: block;
   margin: 1.5rem auto; /* 上下に余白を入れて中央寄せ */
-  max-width: 500px;    /* 最大幅を500pxに制限 */
+  max-width: 600px;    /* 最大幅を600pxに制限 */
   width: 100%;         /* スマホなど狭い画面では自動調整 */
   height: auto;        /* 縦横比を維持 */
   border-radius: 8px;  /* 角を丸める（任意） */
@@ -219,3 +226,10 @@ body.home .intro {
   color: #777;        /* グレー系の色に */
   margin-bottom: 3rem;
 }
+
+/* poem投稿ページの本文を小さめに */
+body.poem-post p {
+  font-size: 1rem;    /* 今の1.1remから小さく */
+  line-height: 1.8;   /* 行間も少し詰めるなら調整 */
+}
+
