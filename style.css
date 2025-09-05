@@ -199,6 +199,15 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .poem-subtitle {
+    font-size: 0.85rem;   /* さらに控えめ */
+    margin-top: -0.6rem;  /* タイトルとの間を少しだけ詰める */
+    margin-bottom: 1.6rem;
+    /* color/text-align は共通をそのまま継承 */
+  }
+}
+
 /* トップページの中央揃え */
 body.home {
   text-align: center;
