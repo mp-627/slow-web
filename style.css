@@ -256,3 +256,10 @@ body.poem-post .poem-title {
   margin-bottom: 1.5rem;
 }
 
+/* ブログ内の画像をレスポンシブ対応に */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;  /* 上下に余白＋中央寄せ */
+}
