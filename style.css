@@ -226,7 +226,7 @@ a:hover {
 @media screen and (max-width: 600px) {
   /* blog / poetry */
   .link a {
-    font-size: 1.1rem;  /* ← PCより少し小さめに */
+    font-size: 0.8rem;  /* ← PCより少し小さめに */
   }
 
   /* litlink ボタン */
