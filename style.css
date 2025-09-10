@@ -204,6 +204,12 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  p.link { margin: 0; }
+  p.link + p.link { margin-top: 0.25rem; }
+  p.link:last-of-type { margin-bottom: 2rem; }
+}
+
 /* トップページの中央揃え */
 body.home {
   text-align: center;
@@ -262,4 +268,36 @@ img {
   height: auto;
   display: block;
   margin: 20px auto;  /* 上下に余白＋中央寄せ */
+}
+
+/* blog・poetryリンク */
+.link a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0066cc;
+  text-decoration: none;      /* ← 普段は下線なし */
+  padding: 0.5rem 0;
+  display: inline-block;
+  transition: color 0.2s, text-decoration 0.2s; /* ← スムーズに変化 */
+}
+
+/* blog・poetryにカーソルを合わせた時 */
+.link a:hover {
+  color: #004999;             /* ← 色を少し濃くする */
+  text-decoration: underline; /* ← hover時だけ下線を表示 */
+}
+
+/* 追加：段落リンクのデフォルト余白をゼロに */
+p.link {
+  margin: 0;
+}
+
+/* 追加：直後の .link 段落との間だけ小さくする */
+p.link + p.link {
+  margin-top: 0.3rem;   /* 好みで 0.2〜0.6rem などに微調整 */
+}
+
+/* 追加：最後の .link 段落（poetry）の下だけ広げる */
+p.link:last-of-type {
+  margin-bottom: 2.4rem;  /* 好みで 2.0〜3.0rem などに調整 */
 }
