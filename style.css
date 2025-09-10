@@ -210,6 +210,18 @@ a:hover {
   p.link:last-of-type { margin-bottom: 2rem; }
 }
 
+/* ===== スマホ用に上書き ===== */
+@media screen and (max-width: 600px) {
+  .link a {
+    text-decoration: underline !important; /* 常に下線あり */
+    transition: none;                      /* アニメーション無し */
+  }
+  .link a:hover {
+    color: #0066cc;   /* hoverしても色を変えない（PCと同じにしたくなければ調整可） */
+    text-decoration: underline;
+  }
+}
+
 /* トップページの中央揃え */
 body.home {
   text-align: center;
