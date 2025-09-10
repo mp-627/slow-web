@@ -222,6 +222,20 @@ a:hover {
   }
 }
 
+/* ===== スマホ専用リンクサイズ調整 ===== */
+@media screen and (max-width: 600px) {
+  /* blog / poetry */
+  .link a {
+    font-size: 1.1rem;  /* ← PCより少し小さめに */
+  }
+
+  /* litlink ボタン */
+  .ext-btn {
+    font-size: 1rem;    /* ← ボタンも少し小さめに */
+    padding: 0.5em 0.9em; /* 文字に合わせて余白も調整するとバランス◎ */
+  }
+}
+
 /* トップページの中央揃え */
 body.home {
   text-align: center;
